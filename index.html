@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUARC — Support</title>
-    <link rel="icon" type="image/png" href="AppIcon.png">
+    <title>Textile — Support</title>
+    <link rel="icon" type="image/png" href="large icon.png">
     <style>
         * {
             margin: 0;
@@ -13,9 +13,9 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #000;
-            color: #e0e0e8;
+            font-family: Georgia, "Iowan Old Style", "Apple Garamond", "Times New Roman", serif;
+            background: #fdfcf9;
+            color: #1a1a1a;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -23,50 +23,54 @@
 
         header {
             text-align: center;
-            padding: 3rem 1.5rem 2rem;
-            background: #000;
+            padding: 4rem 1.5rem 1.5rem;
+        }
+
+        header img {
+            height: 9rem;
+            width: auto;
         }
 
         header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: 0.15em;
-            color: #fff;
-            margin-bottom: 0.25rem;
-        }
-
-        header h1 span {
-            color: #ffffff;
-        }
-
-        header p {
-            font-size: 1.1rem;
-            color: #888;
+            font-size: 2.75rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #1a1a1a;
             margin-top: 0.5rem;
+        }
+
+        header .tagline {
+            font-size: 1.05rem;
+            color: #777;
+            margin-top: 0.5rem;
+            font-style: italic;
         }
 
         main {
             max-width: 640px;
             margin: 0 auto;
-            padding: 2rem 1.5rem 4rem;
+            padding: 1.5rem 1.5rem 4rem;
             flex: 1;
+            width: 100%;
         }
 
         section {
-            margin-bottom: 2.5rem;
+            margin-bottom: 2.75rem;
         }
 
         h2 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 0.75rem;
+            font-size: 1.35rem;
+            font-weight: 400;
+            color: #1a1a1a;
+            margin-bottom: 0.85rem;
+            border-bottom: 1px solid #e8e4dc;
+            padding-bottom: 0.4rem;
         }
 
         p, li {
-            line-height: 1.7;
-            color: #c0c0cc;
-            font-size: 1rem;
+            line-height: 1.75;
+            color: #333;
+            font-size: 1.05rem;
         }
 
         ul {
@@ -84,71 +88,86 @@
             content: "•";
             position: absolute;
             left: 0;
-            color: #ffffff;
+            color: #1a1a1a;
         }
 
         a {
-            color: #ffffff;
-            text-decoration: none;
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #555;
         }
 
         .contact-link {
             display: inline-block;
             margin-top: 0.75rem;
-            padding: 0.6rem 1.5rem;
-            border: 1px solid #ffffff;
-            border-radius: 8px;
-            color: #ffffff;
+            padding: 0.65rem 1.6rem;
+            border: 1px solid #1a1a1a;
+            border-radius: 4px;
+            color: #1a1a1a;
             font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            text-decoration: none;
             transition: background 0.2s, color 0.2s;
         }
 
         .contact-link:hover {
-            background: #ffffff;
-            color: #0a0a0f;
-            text-decoration: none;
+            background: #1a1a1a;
+            color: #fdfcf9;
         }
 
         footer {
             text-align: center;
             padding: 1.5rem;
             font-size: 0.85rem;
-            color: #555;
-            border-top: 1px solid #1a1a2e;
+            color: #999;
+            border-top: 1px solid #e8e4dc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="quarc title.png" alt="QUARC." style="height: 16rem;">
+        <img src="large icon.png" alt="Textile">
+        <h1>Textile</h1>
+        <p class="tagline">A simple, beautiful notes app.</p>
     </header>
     <main>
         <section>
             <h2>About</h2>
-            <p>QUARC reimagines the classic falling-block puzzle with beautifully curved pieces. Every shape is built from concave and convex arcs — rotate, drop, and clear rows to climb the leaderboard.</p>
+            <p>Textile is a quiet, distraction-free place to write. Jot down thoughts, draft ideas, or keep a long-running journal — all set in the typeface of your choice.</p>
         </section>
         <section>
-            <h2>How to Play</h2>
+            <h2>Features</h2>
             <ul>
-                <li>Tap left or right to move a piece</li>
-                <li>Tap the center to rotate</li>
-                <li>Swipe down to drop</li>
-                <li>Match curves to complete rows and clear them</li>
+                <li>Clean, focused writing experience</li>
+                <li>A curated selection of beautiful fonts: Arvo, Lato, Raleway, Source Code Pro, and Source Sans Pro</li>
+                <li>Choose a default font, or set a different one for any individual note</li>
+                <li>Optional automatic sentence capitalization</li>
+                <li>Notes are saved automatically as you type</li>
             </ul>
         </section>
-<section>
+        <section>
+            <h2>Tips</h2>
+            <ul>
+                <li>Tap the font name in the editor toolbar to change the typeface for the current note</li>
+                <li>Open Settings to pick the default font new notes will use</li>
+                <li>Swipe a note in the list to delete it</li>
+            </ul>
+        </section>
+        <section>
             <h2>Support</h2>
-            <p>Having trouble or want to share feedback? Get in touch and we'll get back to you as soon as we can.</p>
-            <a class="contact-link" href="mailto:lukebradfordapps@gmail.com">Contact Support</a>
+            <p>Run into a bug, have a feature request, or just want to share feedback? Get in touch and I'll get back to you as soon as I can.</p>
+            <a class="contact-link" href="mailto:lukebradfordapps@gmail.com?subject=Textile%20for%20iPhone">Contact Support</a>
         </section>
         <section>
             <h2>Privacy</h2>
-            <p>QUARC uses Google Firebase Analytics to collect anonymous usage data such as app launches, session duration, and gameplay events. This data helps us improve the game and is processed by Google in accordance with <a href="https://firebase.google.com/support/privacy">Firebase's Privacy Policy</a>. No personally identifiable information is collected by QUARC itself.</p>
-            <p style="margin-top: 1rem;">QUARC also uses Game Center for leaderboards, which is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+            <p>Textile does not collect, transmit, or share any personal information. Your notes live on your device and are never sent anywhere by Textile.</p>
+            <p style="margin-top: 1rem;">There is no analytics, no tracking, and no third-party SDKs.</p>
         </section>
     </main>
     <footer>
