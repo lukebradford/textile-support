@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUARC — Support</title>
+    <link rel="icon" type="image/png" href="AppIcon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #000;
+            color: #e0e0e8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 2rem;
+            background: #000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        header h1 span {
+            color: #ffffff;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #888;
+            margin-top: 0.5rem;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+            flex: 1;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        p, li {
+            line-height: 1.7;
+            color: #c0c0cc;
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding-left: 1.25rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+        }
+
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin-top: 0.75rem;
+            padding: 0.6rem 1.5rem;
+            border: 1px solid #ffffff;
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1rem;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .contact-link:hover {
+            background: #ffffff;
+            color: #0a0a0f;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            color: #555;
+            border-top: 1px solid #1a1a2e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="quarc title.png" alt="QUARC." style="height: 16rem;">
+    </header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>QUARC reimagines the classic falling-block puzzle with beautifully curved pieces. Every shape is built from concave and convex arcs — rotate, drop, and clear rows to climb the leaderboard.</p>
+        </section>
+        <section>
+            <h2>How to Play</h2>
+            <ul>
+                <li>Tap left or right to move a piece</li>
+                <li>Tap the center to rotate</li>
+                <li>Swipe down to drop</li>
+                <li>Match curves to complete rows and clear them</li>
+            </ul>
+        </section>
+<section>
+            <h2>Support</h2>
+            <p>Having trouble or want to share feedback? Get in touch and we'll get back to you as soon as we can.</p>
+            <a class="contact-link" href="mailto:lukebradfordapps@gmail.com">Contact Support</a>
+        </section>
+        <section>
+            <h2>Privacy</h2>
+            <p>QUARC uses Google Firebase Analytics to collect anonymous usage data such as app launches, session duration, and gameplay events. This data helps us improve the game and is processed by Google in accordance with <a href="https://firebase.google.com/support/privacy">Firebase's Privacy Policy</a>. No personally identifiable information is collected by QUARC itself.</p>
+            <p style="margin-top: 1rem;">QUARC also uses Game Center for leaderboards, which is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2026 Luke Bradford. All rights reserved.
+    </footer>
+</body>
+</html>
